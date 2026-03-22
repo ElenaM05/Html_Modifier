@@ -96,5 +96,3 @@ AWS_REGION=us-east-1
 
 **Note**: This tool requires active AWS Bedrock access and may incur costs for API usage.
 ```
-
-This README provides comprehensive documentation for your HTML analysis tool, including installation instructions, usage examples, troubleshooting, and all the features of your script. You can copy this content into a `README.md` file in your repository.This README provides comprehensive documentation for your HTML analysis tool, including installation instructions, usage examples, troubleshooting, and all the features of your script. You can copy this content into a `README.md` file in your repository.
