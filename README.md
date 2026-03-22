@@ -1,4 +1,3 @@
-
 # HTML Real-Time CSS Analysis Tool
 
 A powerful Python tool that performs comprehensive real-time analysis of HTML files and web pages to detect layout issues, then uses AI (Claude via AWS Bedrock) to generate professional CSS fixes.
@@ -50,30 +49,30 @@ The tool generates:
 
 ## 📁 Output Structure
 
-
+```
 processing/
 ├── analysis_results_20260322_202317.json    # Detailed JSON results
 ├── analysis_report_20260322_202317.txt      # Human-readable report
 ├── yourfile_analysis_20260322_202317.html   # Working copy
 ├── yourfile_analysis_20260322_202317_FIXED.html  # Fixed HTML
 └── yourfile_fixes.css                       # CSS fixes
-
+```
 
 ## ⚙️ Configuration
 
 ### AWS Bedrock Model
 The tool uses Claude 3.5 Sonnet. Update the model ID in the code if needed:
-
+```python
 self.model_id = "anthropic.claude-3-5-sonnet-20240620-v1:0"
-
+```
 
 ### Environment Variables
 Create a .env file for configuration:
-
+```
 AWS_ACCESS_KEY_ID=your_key
 AWS_SECRET_ACCESS_KEY=your_secret
 AWS_REGION=us-east-1
-
+```
 
 ## 🐛 Troubleshooting
 
@@ -98,4 +97,4 @@ AWS_REGION=us-east-1
 **Note**: This tool requires active AWS Bedrock access and may incur costs for API usage.
 ```
 
-
+This README provides comprehensive documentation for your HTML analysis tool, including installation instructions, usage examples, troubleshooting, and all the features of your script. You can copy this content into a `README.md` file in your repository.This README provides comprehensive documentation for your HTML analysis tool, including installation instructions, usage examples, troubleshooting, and all the features of your script. You can copy this content into a `README.md` file in your repository.
