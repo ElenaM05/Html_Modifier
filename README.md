@@ -95,4 +95,3 @@ AWS_REGION=us-east-1
 ---
 
 **Note**: This tool requires active AWS Bedrock access and may incur costs for API usage.
-```
